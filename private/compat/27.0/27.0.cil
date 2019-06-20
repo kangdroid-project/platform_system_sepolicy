@@ -2,7 +2,6 @@
 (type commontime_management_service)
 (type mediacodec)
 (type mediacodec_exec)
-(type netd_socket)
 (type qtaguid_proc)
 (type reboot_data_file)
 (type vold_socket)
