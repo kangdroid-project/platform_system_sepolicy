@@ -1,7 +1,7 @@
 ##
 # trusted execution environment (tee) daemon
 #
-type tee, domain;
+type tee, domain, coredomain;
 
 # Device(s) for communicating with the TEE
 type tee_device, dev_type;
