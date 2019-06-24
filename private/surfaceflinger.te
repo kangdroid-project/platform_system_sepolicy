@@ -35,6 +35,9 @@ binder_call(surfaceflinger, adbd)
 r_dir_file(surfaceflinger, binderservicedomain)
 r_dir_file(surfaceflinger, appdomain)
 
+allow surfaceflinger sysfs:dir { open read };
+allow surfaceflinger sysfs:file { open read };
+
 # Access the GPU.
 allow surfaceflinger gpu_device:chr_file rw_file_perms;
 
